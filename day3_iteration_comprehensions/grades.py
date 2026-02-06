@@ -30,16 +30,10 @@ def top_three_students(students):
 def pass_fail(students):
     validate_students(students)
 
-    results = {}
-    for name in students:
-        grade = students[name]
-
-        if grade >= 50:
-            results[name] = "pass"
-        else:
-            results[name] = "fail"
-
-    return results
+    return {
+        name: "pass" if students[name] >= 50 else "fail"
+        for name in students
+    }
 
 if __name__ == "__main__":
     students = {
