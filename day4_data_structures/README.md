@@ -7,7 +7,7 @@ command-line **Contact Book** application.
 
 ---
 
-## 📌 Topics Covered
+## Topics Covered
 
 - Lists (iteration, sorting)
 - Tuples (conceptual understanding)
@@ -19,15 +19,15 @@ command-line **Contact Book** application.
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
-day4_data_structures/
-├── contact_book.py
-└── README.md
+    day4_data_structures/
+    ├── contact_book.py
+    └── README.md
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Activate your virtual environment.
 2. Navigate to the Day 4 folder:
@@ -41,14 +41,14 @@ python contact_book.py
 
 ---
 
-## 🧠 Data Structure Design
+##  Data Structure Design
 
 Contacts are stored using a dictionary of dictionaries:
 
 contacts = {
-    "Ali Ahmad": {
-        "phone": "0599...",
-        "email": "ali@email.com",
+    "Sana Saleh": {
+        "phone": "0567...",
+        "email": "sana@email.com",
         "tags": {"work", "gym"}
     }
 }
@@ -59,7 +59,7 @@ contacts = {
 
 ---
 
-## ✨ Features
+## Features
 
 - Add a new contact
 - Prevent duplicate names (with overwrite confirmation)
@@ -71,7 +71,7 @@ contacts = {
 
 ---
 
-## ⏱ Time Complexity Analysis
+## Time Complexity Analysis
 
 - Add contact (check duplicate): O(1) average
 - Search by name: O(1) average
@@ -83,7 +83,7 @@ contacts = {
 
 ---
 
-## 📝 Notes
+## Notes
 
 - This project is for learning purposes.
 - Uses only concepts covered up to Day 4.
